@@ -1,0 +1,149 @@
+=== Fetching app code
+=== Building web (Dockerfile)
+Sending build context to Docker daemon  15.36kBStep 1/1 : FROM cybergroupignite/runtime:v1.0.14
+v1.0.14: Pulling from cybergroupignite/runtime
+171857c49d0f: Pulling fs layer
+419640447d26: Pulling fs layer
+61e52f862619: Pulling fs layer
+c97d646ce0ef: Pulling fs layer
+3776f40e285d: Pulling fs layer
+b2c15c07b10f: Pulling fs layer
+039cbf88242d: Pulling fs layer
+5549b669306d: Pulling fs layer
+0443fe2a6cd6: Pulling fs layer
+961259fdb47b: Pulling fs layer
+e72ca2ae3d16: Pulling fs layer
+413b32758fbf: Pulling fs layer
+85027607512a: Pulling fs layer
+cd17784e95c1: Pulling fs layer
+06cb72e3c92d: Pulling fs layer
+929b05516a20: Pulling fs layer
+4ef1de3db8e4: Pulling fs layer
+4670d10ba513: Pulling fs layer
+c97d646ce0ef: Waiting
+3776f40e285d: Waiting
+b2c15c07b10f: Waiting
+039cbf88242d: Waiting
+5549b669306d: Waiting
+0443fe2a6cd6: Waiting
+961259fdb47b: Waiting
+e72ca2ae3d16: Waiting
+413b32758fbf: Waiting
+85027607512a: Waiting
+cd17784e95c1: Waiting
+06cb72e3c92d: Waiting
+929b05516a20: Waiting
+4ef1de3db8e4: Waiting
+4670d10ba513: Waiting
+419640447d26: Verifying Checksum
+419640447d26: Download complete
+61e52f862619: Verifying Checksum
+61e52f862619: Download complete
+c97d646ce0ef: Verifying Checksum
+c97d646ce0ef: Download complete
+b2c15c07b10f: Verifying Checksum
+b2c15c07b10f: Download complete
+171857c49d0f: Verifying Checksum
+171857c49d0f: Download complete
+5549b669306d: Verifying Checksum
+5549b669306d: Download complete
+0443fe2a6cd6: Verifying Checksum
+0443fe2a6cd6: Download complete
+039cbf88242d: Verifying Checksum
+039cbf88242d: Download complete
+e72ca2ae3d16: Verifying Checksum
+e72ca2ae3d16: Download complete
+961259fdb47b: Verifying Checksum
+961259fdb47b: Download complete
+413b32758fbf: Verifying Checksum
+413b32758fbf: Download complete
+85027607512a: Verifying Checksum
+85027607512a: Download complete
+cd17784e95c1: Verifying Checksum
+cd17784e95c1: Download complete
+06cb72e3c92d: Verifying Checksum
+06cb72e3c92d: Download complete
+929b05516a20: Verifying Checksum
+929b05516a20: Download complete
+4670d10ba513: Verifying Checksum
+4670d10ba513: Download complete
+3776f40e285d: Verifying Checksum
+3776f40e285d: Download complete
+4ef1de3db8e4: Verifying Checksum
+4ef1de3db8e4: Download complete
+171857c49d0f: Pull complete
+419640447d26: Pull complete
+61e52f862619: Pull complete
+c97d646ce0ef: Pull complete
+3776f40e285d: Pull complete
+b2c15c07b10f: Pull complete
+039cbf88242d: Pull complete
+5549b669306d: Pull complete
+0443fe2a6cd6: Pull complete
+961259fdb47b: Pull complete
+e72ca2ae3d16: Pull complete
+413b32758fbf: Pull complete
+85027607512a: Pull complete
+cd17784e95c1: Pull complete
+06cb72e3c92d: Pull complete
+929b05516a20: Pull complete
+4ef1de3db8e4: Pull complete
+4670d10ba513: Pull complete
+Digest: sha256:33b25f048bd3a5745df16837561679d5781725849fd02f1aa901ff68d963ae70
+Status: Downloaded newer image for cybergroupignite/runtime:v1.0.14
+ ---> eee813430a07
+Successfully built eee813430a07
+Successfully tagged 0e2857289c82f7771634d8336c9d65ea26c2f6ad:latest
+=== Pushing web (Dockerfile)
+Tagged image "0e2857289c82f7771634d8336c9d65ea26c2f6ad" as "registry.heroku.com/crypto-tezos/web"
+The push refers to repository [registry.heroku.com/crypto-tezos/web]
+b2c6bdf7b9d0: Preparing
+eb4418205b62: Preparing
+a23335fd9917: Preparing
+589691239563: Preparing
+e0f34a7eb190: Preparing
+1949c72c50a1: Preparing
+1fd74e09a575: Preparing
+ee172404eb50: Preparing
+9a8eaf95f80c: Preparing
+ac2ee56fa3b0: Preparing
+10283516d820: Preparing
+92205ff64c10: Preparing
+6c02c95bb36e: Preparing
+8dff7465e43d: Preparing
+17cb30386b24: Preparing
+7a694df0ad6c: Preparing
+3fd9df553184: Preparing
+805802706667: Preparing
+1949c72c50a1: Waiting
+1fd74e09a575: Waiting
+ee172404eb50: Waiting
+9a8eaf95f80c: Waiting
+ac2ee56fa3b0: Waiting
+10283516d820: Waiting
+92205ff64c10: Waiting
+6c02c95bb36e: Waiting
+8dff7465e43d: Waiting
+17cb30386b24: Waiting
+7a694df0ad6c: Waiting
+3fd9df553184: Waiting
+805802706667: Waiting
+589691239563: Pushed
+b2c6bdf7b9d0: Pushed
+e0f34a7eb190: Pushed
+a23335fd9917: Pushed
+1fd74e09a575: Pushed
+1949c72c50a1: Pushed
+ee172404eb50: Pushed
+9a8eaf95f80c: Pushed
+ac2ee56fa3b0: Pushed
+10283516d820: Pushed
+6c02c95bb36e: Pushed
+17cb30386b24: Pushed
+7a694df0ad6c: Pushed
+3fd9df553184: Pushed
+92205ff64c10: Pushed
+805802706667: Pushed
+eb4418205b62: Pushed
+8dff7465e43d: Pushed
+latest: digest: sha256:33b25f048bd3a5745df16837561679d5781725849fd02f1aa901ff68d963ae70 size: 4072
